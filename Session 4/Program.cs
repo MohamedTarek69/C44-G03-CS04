@@ -117,36 +117,24 @@
             // Output: Total marks = 408
             //         Average Marks = 81
             //         Percentage = 81
-
-            //Console.WriteLine("Please Enter Five Marks:");
-            //int M1, M2, M3, M4, M5,TotalMarks,Avg;
-            //double Perc;
-            //Console.Write("Please enter the first Mark: ");
-            //int.TryParse(Console.ReadLine(), out M1);
-            //Console.Write("Please enter the second Mark: ");
-            //int.TryParse(Console.ReadLine(), out M2);
-            //Console.Write("Please enter the third Mark: ");
-            //int.TryParse(Console.ReadLine(), out M3);
-            //Console.Write("Please enter the fourth Mark: ");
-            //int.TryParse(Console.ReadLine(), out M4);
-            //Console.Write("Please enter the fifth Mark: ");
-            //int.TryParse(Console.ReadLine(), out M5);
-            //TotalMarks = M1+ M2 + M3 + M4 + M5;
-            //if (TotalMarks == 0)
+            
+            //int TotalMarks =0;
+            //Console.WriteLine("Enter marks for five subjects:");
+            //for (int i = 1; i <= 5; i++)
             //{
-            //    Avg = 0;
-            //    Perc = 0;
+            //    Console.Write($"Subject {i}: ");
+            //    int mark;
+            //    int.TryParse(Console.ReadLine(),out mark);
+            //    TotalMarks += mark;
             //}
-            //else
-            //{
-            //    Avg = TotalMarks/5;
-            //    Perc = Avg;
-            //}
+            //double Avg = TotalMarks / 5.0;
+            //double Perc = Avg;
             //Console.WriteLine($"Total marks = {TotalMarks}");
             //Console.WriteLine($"Average Marks = {Avg}");
             //Console.WriteLine($"Percentage = {Perc}");
 
             #endregion
+
         }
     }
 }
