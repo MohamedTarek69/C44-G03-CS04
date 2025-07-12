@@ -117,7 +117,7 @@
             // Output: Total marks = 408
             //         Average Marks = 81
             //         Percentage = 81
-            
+
             //int TotalMarks =0;
             //Console.WriteLine("Enter marks for five subjects:");
             //for (int i = 1; i <= 5; i++)
@@ -135,6 +135,24 @@
 
             #endregion
 
+            #region Q6- Write a program to allow the user to enter a string and print the REVERSE of it
+            // Example
+            // Input: hello
+            // Output: olleh
+
+            //Console.Write("Enter a string: ");
+            //string str = Console.ReadLine();
+            
+            //string ReversedStr = "";
+            //for (int i = str.Length - 1; i >= 0; i--)
+            //{
+            //    ReversedStr += str[i];
+            //}
+            //Console.WriteLine($"The reversec string is: {ReversedStr}");
+
+            #endregion
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
     }
 }
