@@ -136,7 +136,6 @@
             #endregion
 
             #region Q6- Write a program to allow the user to enter a string and print the REVERSE of it
-
             //Console.Write("Enter a string: ");
             //string str = Console.ReadLine();
 
@@ -203,7 +202,7 @@
 
             #endregion
 
-            #region @9- Write a program in C# Sharp to convert a decimal number into binary without using an array.
+            #region Q9- Write a program in C# Sharp to convert a decimal number into binary without using an array
             //Test Data :
             //Enter a number to convert: 25
             //Expected Output :
@@ -225,7 +224,7 @@
 
             #endregion
 
-            #region Q10- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
+            #region Q10- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line
             //Console.WriteLine("please enter three points: ");
             //Console.WriteLine("Please enter the first point: ");
             //Console.Write("x1: ");
@@ -256,6 +255,25 @@
             //    Console.WriteLine("The points lie on a straight line.");
             //else
             //    Console.WriteLine("The points do NOT lie on a straight line.");
+
+            #endregion
+
+            #region Q11- Write a program that prints an identity matrix using for loop, in other words takes a value n from the user and shows the identity table of size n * n
+            //Console.Write("Enter size for identity matrix: ");
+            //int n;
+            //int.TryParse(Console.ReadLine(), out n);
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < n; j++)
+            //    {
+            //        if (i == j)
+            //            Console.Write("1 ");
+            //        else
+            //            Console.Write("0 ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
 
             #endregion
 
