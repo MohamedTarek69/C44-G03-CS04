@@ -142,7 +142,7 @@
 
             //Console.Write("Enter a string: ");
             //string str = Console.ReadLine();
-            
+
             //string ReversedStr = "";
             //for (int i = str.Length - 1; i >= 0; i--)
             //{
@@ -151,6 +151,23 @@
             //Console.WriteLine($"The reversec string is: {ReversedStr}");
 
             #endregion
+
+            #region Q7- Write a program to allow the user to enter an int and print the REVERSED of it
+            //int Number;
+            //Console.Write("Enter an integer: ");
+            //int.TryParse(Console.ReadLine(), out Number);
+            //int ReversedNumber = 0;
+            //while (Number != 0)
+            //{
+            //    int digit = Number % 10;
+            //    ReversedNumber = ReversedNumber * 10 + digit;
+            //    Number /= 10;
+            //}
+            //Console.WriteLine($"Reversed number: {ReversedNumber}");
+
+            #endregion
+
+
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }
