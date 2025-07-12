@@ -298,6 +298,33 @@ namespace Session_4
 
             #endregion
 
+            //------------------------------------Video 05 - Evolution of Switch in C# 9.0------------------------------------
+            #region C# 9.0 [Switch Expression With Relational Patterns - Logical Patterns - Enhanced Property Matching
+
+            #region Example 01 [Relational Patterns]
+            //int Number = 25;
+
+            //string Message = Number switch
+            //{
+            //    < 10 => "Less than 10",
+            //    >= 10 and <= 20 => "Between 10 and 20",
+            //    > 20 or < 10 => "Out side Range 20",
+            //    //0 => "Number is zero "
+            //};
+            //Console.WriteLine(Message);
+
+            #endregion
+
+            #region Example 02[Logical Patterns(and, or)]
+
+            #endregion
+
+            #region Example 03[Enhanced Property Matching]
+
+            #endregion
+
+            #endregion
+
             #endregion
         }
     }
