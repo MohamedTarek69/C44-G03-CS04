@@ -136,9 +136,6 @@
             #endregion
 
             #region Q6- Write a program to allow the user to enter a string and print the REVERSE of it
-            // Example
-            // Input: hello
-            // Output: olleh
 
             //Console.Write("Enter a string: ");
             //string str = Console.ReadLine();
@@ -203,6 +200,28 @@
             //    }
             //}
             //Console.WriteLine();
+
+            #endregion
+
+            #region @9- Write a program in C# Sharp to convert a decimal number into binary without using an array
+            //Test Data :
+            //Enter a number to convert: 25
+            //Expected Output :
+            //The Binary of 25 is 11001.
+
+            //Console.Write("Enter a decimal number to convert: ");
+            //int DecimalNumber;
+            //int.TryParse(Console.ReadLine(), out DecimalNumber);
+            //int BinaryNumber = 0, Place = 1;
+            //int temp = DecimalNumber;
+            //while (temp > 0)
+            //{
+            //    int Reminder = temp % 2;
+            //    BinaryNumber = BinaryNumber + Reminder * Place;
+            //    Place *= 10;
+            //    temp /= 2;
+            //}
+            //Console.WriteLine($"The Binary of {DecimalNumber} is {BinaryNumber}.");
 
             #endregion
 
