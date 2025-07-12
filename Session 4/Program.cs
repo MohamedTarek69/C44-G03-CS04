@@ -1,5 +1,9 @@
 ﻿using System.Diagnostics;
+using System.Linq.Expressions;
+using System.Reflection.Metadata;
+using System.Reflection.PortableExecutable;
 using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Session_4
 {
@@ -223,7 +227,76 @@ namespace Session_4
 
             #endregion
 
+            //------------------------------------Video 04 - Evolution of Switch in C# 8.0------------------------------------
+            #region C# 8.0 [Pattern matching without alias name - Switch Expressions - Property Pattern
 
+            #region Example 01 - Pattern matching without alias name
+            //string Option = Console.ReadLine();
+            //string Message;
+
+            //switch (Option)
+            //{
+            //    case "1":
+            //        Message = "Option 01";
+            //        break;
+            //    case "2":
+            //        Message = "Option 02";
+            //        break;
+            //    case "3":
+            //        Message = "Option 03";
+            //        break;
+            //    default:
+            //        Message = "Invalid";
+            //        break;
+            //}
+
+            //Message = Option switch
+            //{
+            //    "1" => "Option 01",
+            //    "2" => "Option 02",
+            //    "3" => "Option 03",
+            //    _ => "Invalid"
+            //};
+
+            //Console.WriteLine(Message);
+            #endregion
+
+            #region Switch Case Before Switch Expression
+
+            #endregion
+
+            #region Example 02 Switch Expressions[Constant Pattern - Discard Pattern]
+
+            #endregion
+
+            #region Example 03[Property Pattern]
+            //Person person = new Person() { Id = 10, Name = "Ahmed", Age = 25 };
+
+            //string Message = person switch
+            //{
+            //    { Name: "Ahemd", Age: 10 } => "Hello Ahmed",
+            //    { Name: "Omar" } => "Hello Omar",
+            //    _ => "Invalid"
+            //};
+
+            //Console.WriteLine(Message);
+            #endregion
+
+            #region Example 04[Nullable Type - Relational Patterns[Partially]]
+            //int? Number = null;
+
+            //string Result = Number switch
+            //{
+            //    null => "Null Value",
+            //    int X when X > 0 => "Positive",
+            //    int X when X < 0 => "Negative",
+            //    _ => "Invalid"
+            //};
+
+            //Console.WriteLine(Result);
+            #endregion
+
+            #endregion
 
             #endregion
         }
