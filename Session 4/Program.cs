@@ -203,7 +203,7 @@
 
             #endregion
 
-            #region @9- Write a program in C# Sharp to convert a decimal number into binary without using an array
+            #region @9- Write a program in C# Sharp to convert a decimal number into binary without using an array.
             //Test Data :
             //Enter a number to convert: 25
             //Expected Output :
@@ -222,6 +222,40 @@
             //    temp /= 2;
             //}
             //Console.WriteLine($"The Binary of {DecimalNumber} is {BinaryNumber}.");
+
+            #endregion
+
+            #region Q10- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
+            //Console.WriteLine("please enter three points: ");
+            //Console.WriteLine("Please enter the first point: ");
+            //Console.Write("x1: ");
+            //double x1;
+            //double.TryParse(Console.ReadLine(), out x1);
+            //Console.Write("y1: ");
+            //double y1;
+            //double.TryParse(Console.ReadLine(), out y1);
+            //Console.WriteLine("Please enter the second point: ");
+            //Console.Write("x2: ");
+            //double x2;
+            //double.TryParse(Console.ReadLine(), out x2);
+            //Console.Write("y2: ");
+            //double y2;
+            //double.TryParse(Console.ReadLine(), out y2);
+            //Console.WriteLine("Please enter the third point: ");
+            //Console.Write("x3: ");
+            //double x3;
+            //double.TryParse(Console.ReadLine(), out x3);
+            //Console.Write("y3: ");
+            //double y3;
+            //double.TryParse(Console.ReadLine(), out y3);
+
+            //double slope1 = (y2 - y1) / (x2 - x1);
+            //double slope2 = (y3 - y2) / (x3 - x2);
+
+            //if (slope1 == slope2)
+            //    Console.WriteLine("The points lie on a straight line.");
+            //else
+            //    Console.WriteLine("The points do NOT lie on a straight line.");
 
             #endregion
 
