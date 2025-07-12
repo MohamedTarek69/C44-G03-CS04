@@ -84,6 +84,31 @@
         //        }
         //    }
 
+        #endregion
+
+        #region @4- Write a program that takes two integers then prints the power
+        // Example
+        // Input: 4 3
+        // Output: 64 (since 4^3 = 4 * 4 * 4)
+
+        //Retry:
+        //    Console.Write("Please enter the first number: ");
+        //    int Number1;
+        //    int.TryParse(Console.ReadLine(), out Number1);
+        //    Console.Write("Please enter the second number: ");
+        //    int Number2;
+        //    int.TryParse(Console.ReadLine(), out Number2);
+        //    if (Number1 <= 0||Number2 <= 0)
+        //    {
+        //        Console.WriteLine("Please enter a positive integer");
+        //        goto Retry;
+        //    }
+        //    else
+        //    {
+        //        double Result = Math.Pow(Number1,Number2);
+        //        Console.WriteLine(Result);
+        //    }
+
             #endregion
 
 
