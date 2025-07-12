@@ -4,114 +4,149 @@
     {
         static void Main(string[] args)
         {
-        #region Q1- Write a program that allows the user to insert an integer then print all numbers between 1 to that number
-        //Example
-        //Input: 5
-        //Output: 1, 2, 3, 4, 5
+            #region Q1- Write a program that allows the user to insert an integer then print all numbers between 1 to that number
+            //Example
+            //Input: 5
+            //Output: 1, 2, 3, 4, 5
 
-        //Retry:
-        //Console.Write("Please enter a number: ");
-        //int Number;
-        //int.TryParse(Console.ReadLine(),out Number);
-        //if (Number <= 0)
-        //{
-        //    Console.WriteLine("Please enter a positive integer");
-        //    goto Retry;
-        //}
-        //else
-        //{
-        //    for (int i = 1; i <= Number; i++)
-        //    {
-        //        Console.Write(i);
-        //        if (i < Number)
-        //            Console.Write(", ");
-        //    }
-        //}
-
-        #endregion
-
-        #region Q2- Write a program that allows the user to insert an integer then print a multiplication table up to 12
-        // Example
-        // Input: 5
-        // Output: 5 10 15 20 25 30 35 40 45 50 55 60
-
-        //Retry:
-        //    Console.Write("Please enter a number: ");
-        //    int Number;
-        //    int.TryParse(Console.ReadLine(), out Number);
-        //    if (Number <= 0)
-        //    {
-        //        Console.WriteLine("Please enter a positive integer");
-        //        goto Retry;
-        //    }
-        //    else
-        //    {
-        //        for (int i = 1; i <= 12; i++)
-        //        {
-        //            Console.Write(i*Number);
-        //            if (i < 12)
-        //                Console.Write(" ");
-        //        }
-        //    }
-        #endregion
-
-        #region Q3- Write a program that allows the user to insert a number then print all even numbers between 1 to this number
-        // Example
-        // Input: 15
-        // Output: 2 4 6 8 10 12 14
-
-        //Retry:
-        //    Console.Write("Please enter a number: ");
-        //    int Number;
-        //    int.TryParse(Console.ReadLine(), out Number);
-        //    if (Number <= 0)
-        //    {
-        //        Console.WriteLine("Please enter a positive integer");
-        //        goto Retry;
-        //    }
-        //    else
-        //    {
-        //        for (int i = 0; i <= Number; i+=2)
-        //        {
-        //            if (i==0)
-        //            {
-        //                continue;
-        //            }
-        //            Console.Write(i);
-        //            if (i < Number)
-        //                Console.Write(" ");
-
-        //        }
-        //    }
-
-        #endregion
-
-        #region @4- Write a program that takes two integers then prints the power
-        // Example
-        // Input: 4 3
-        // Output: 64 (since 4^3 = 4 * 4 * 4)
-
-        //Retry:
-        //    Console.Write("Please enter the first number: ");
-        //    int Number1;
-        //    int.TryParse(Console.ReadLine(), out Number1);
-        //    Console.Write("Please enter the second number: ");
-        //    int Number2;
-        //    int.TryParse(Console.ReadLine(), out Number2);
-        //    if (Number1 <= 0||Number2 <= 0)
-        //    {
-        //        Console.WriteLine("Please enter a positive integer");
-        //        goto Retry;
-        //    }
-        //    else
-        //    {
-        //        double Result = Math.Pow(Number1,Number2);
-        //        Console.WriteLine(Result);
-        //    }
+            //Retry:
+            //Console.Write("Please enter a number: ");
+            //int Number;
+            //int.TryParse(Console.ReadLine(),out Number);
+            //if (Number <= 0)
+            //{
+            //    Console.WriteLine("Please enter a positive integer");
+            //    goto Retry;
+            //}
+            //else
+            //{
+            //    for (int i = 1; i <= Number; i++)
+            //    {
+            //        Console.Write(i);
+            //        if (i < Number)
+            //            Console.Write(", ");
+            //    }
+            //}
 
             #endregion
 
+            #region Q2- Write a program that allows the user to insert an integer then print a multiplication table up to 12
+            // Example
+            // Input: 5
+            // Output: 5 10 15 20 25 30 35 40 45 50 55 60
 
+            //Retry:
+            //    Console.Write("Please enter a number: ");
+            //    int Number;
+            //    int.TryParse(Console.ReadLine(), out Number);
+            //    if (Number <= 0)
+            //    {
+            //        Console.WriteLine("Please enter a positive integer");
+            //        goto Retry;
+            //    }
+            //    else
+            //    {
+            //        for (int i = 1; i <= 12; i++)
+            //        {
+            //            Console.Write(i*Number);
+            //            if (i < 12)
+            //                Console.Write(" ");
+            //        }
+            //    }
+            #endregion
+
+            #region Q3- Write a program that allows the user to insert a number then print all even numbers between 1 to this number
+            // Example
+            // Input: 15
+            // Output: 2 4 6 8 10 12 14
+
+            //Retry:
+            //    Console.Write("Please enter a number: ");
+            //    int Number;
+            //    int.TryParse(Console.ReadLine(), out Number);
+            //    if (Number <= 0)
+            //    {
+            //        Console.WriteLine("Please enter a positive integer");
+            //        goto Retry;
+            //    }
+            //    else
+            //    {
+            //        for (int i = 0; i <= Number; i+=2)
+            //        {
+            //            if (i==0)
+            //            {
+            //                continue;
+            //            }
+            //            Console.Write(i);
+            //            if (i < Number)
+            //                Console.Write(" ");
+
+            //        }
+            //    }
+
+            #endregion
+
+            #region @4- Write a program that takes two integers then prints the power
+            // Example
+            // Input: 4 3
+            // Output: 64 (since 4^3 = 4 * 4 * 4)
+
+            //Retry:
+            //    Console.Write("Please enter the first number: ");
+            //    int Number1;
+            //    int.TryParse(Console.ReadLine(), out Number1);
+            //    Console.Write("Please enter the second number: ");
+            //    int Number2;
+            //    int.TryParse(Console.ReadLine(), out Number2);
+            //    if (Number1 <= 0||Number2 <= 0)
+            //    {
+            //        Console.WriteLine("Please enter a positive integer");
+            //        goto Retry;
+            //    }
+            //    else
+            //    {
+            //        double Result = Math.Pow(Number1,Number2);
+            //        Console.WriteLine(Result);
+            //    }
+
+            #endregion
+
+            #region @5- Write a program to enter marks of five subjects and calculate total, average and percentage
+            // Example
+            // Input: 95 76 58 90 89
+            // Output: Total marks = 408
+            //         Average Marks = 81
+            //         Percentage = 81
+
+            //Console.WriteLine("Please Enter Five Marks:");
+            //int M1, M2, M3, M4, M5,TotalMarks,Avg;
+            //double Perc;
+            //Console.Write("Please enter the first Mark: ");
+            //int.TryParse(Console.ReadLine(), out M1);
+            //Console.Write("Please enter the second Mark: ");
+            //int.TryParse(Console.ReadLine(), out M2);
+            //Console.Write("Please enter the third Mark: ");
+            //int.TryParse(Console.ReadLine(), out M3);
+            //Console.Write("Please enter the fourth Mark: ");
+            //int.TryParse(Console.ReadLine(), out M4);
+            //Console.Write("Please enter the fifth Mark: ");
+            //int.TryParse(Console.ReadLine(), out M5);
+            //TotalMarks = M1+ M2 + M3 + M4 + M5;
+            //if (TotalMarks == 0)
+            //{
+            //    Avg = 0;
+            //    Perc = 0;
+            //}
+            //else
+            //{
+            //    Avg = TotalMarks/5;
+            //    Perc = Avg;
+            //}
+            //Console.WriteLine($"Total marks = {TotalMarks}");
+            //Console.WriteLine($"Average Marks = {Avg}");
+            //Console.WriteLine($"Percentage = {Perc}");
+
+            #endregion
         }
     }
 }
