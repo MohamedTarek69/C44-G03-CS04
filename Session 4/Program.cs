@@ -118,20 +118,20 @@
             //         Average Marks = 81
             //         Percentage = 81
 
-            int TotalMarks = 0;
-            Console.WriteLine("Enter marks for five subjects:");
-            for (int i = 1; i <= 5; i++)
-            {
-                Console.Write($"Subject {i}: ");
-                int mark;
-                int.TryParse(Console.ReadLine(), out mark);
-                TotalMarks += mark;
-            }
-            double Avg = TotalMarks / 5.0;
-            double Perc = (TotalMarks*100)/500;
-            Console.WriteLine($"Total marks = {TotalMarks}");
-            Console.WriteLine($"Average Marks = {(int)Avg}");
-            Console.WriteLine($"Percentage = {Perc}");
+            //int TotalMarks = 0;
+            //Console.WriteLine("Enter marks for five subjects:");
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    Console.Write($"Subject {i}: ");
+            //    int mark;
+            //    int.TryParse(Console.ReadLine(), out mark);
+            //    TotalMarks += mark;
+            //}
+            //double Avg = TotalMarks / 5.0;
+            //double Perc = (TotalMarks*100)/500;
+            //Console.WriteLine($"Total marks = {TotalMarks}");
+            //Console.WriteLine($"Average Marks = {(int)Avg}");
+            //Console.WriteLine($"Percentage = {Perc}");
 
             #endregion
 
